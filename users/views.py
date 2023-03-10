@@ -47,6 +47,7 @@ class LoginView(APIView):
         response.data = {
             'jwt': token
         }
+
         return response
 
 
